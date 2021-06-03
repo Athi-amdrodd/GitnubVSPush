@@ -8,6 +8,7 @@ public with sharing class RandomRecordAudit {
             objectList.put(objResult.getName(), objResult.getLabel());
         }
         System.System.debug('objectList'+objectList);
+        System.System.debug('objectList'+objectList);
         return objectList;
     } 
 }
